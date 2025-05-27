@@ -21,29 +21,29 @@ The gradio-dashboard.py script creates a user-friendly web interface using Gradi
 Requirements
 This project was initially developed using Python 3.11. The following dependencies are required and included in the requirements.txt file:
 
-kagglehub
+    -kagglehub
 
-pandas
+    -pandas
 
-matplotlib
+    -matplotlib
 
-seaborn
+    -seaborn
 
-python-dotenv
+    -python-dotenv
 
-langchain-community
+    -langchain-community
 
-langchain-opencv
+    -langchain-opencv
 
-langchain-chroma
+    -langchain-chroma
 
-transformers
+    -transformers
 
-gradio
+    -gradio
 
-notebook
+    -notebook
 
-ipywidgets
+    -ipywidgets
 
 
 ## Setup
@@ -58,14 +58,18 @@ ipywidgets
 
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
+    
 3.Install dependencies:
-   pip install -r requirements.txt
+   
+    pip install -r requirements.txt
+
 
 
 4.Create a .env file in the root directory and add your API keys:
 
-OPENAI_API_KEY=your_openai_api_key_here
-HUGGINGFACEHUB_API_TOKEN=your_huggingface_token_here
+```env
+   OPENAI_API_KEY=your_openai_api_key_here
+   HUGGINGFACEHUB_API_TOKEN=your_huggingface_token_here
 
 
 
