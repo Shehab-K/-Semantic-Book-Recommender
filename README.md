@@ -44,3 +44,31 @@ gradio
 notebook
 
 ipywidgets
+
+
+## Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/Semantic-Book-Recommender.git
+   cd Semantic-Book-Recommender
+
+  2.Create and activate a virtual environment
+
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+3.Install dependencies:
+   pip install -r requirements.txt
+
+
+4.Create a .env file in the root directory and add your API keys:
+
+OPENAI_API_KEY=your_openai_api_key_here
+HUGGINGFACEHUB_API_TOKEN=your_huggingface_token_here
+
+
+
+
+   
+
